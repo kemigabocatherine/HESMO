@@ -31,12 +31,16 @@ body {
 }
 
 header {
-  height: 70%;
-  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100%;
   text-align: center;
-  padding-top: 100px;
+
+  /* padding-top: 15px;
+  padding-bottom: 100px; */
   color: white;
-  overflow: hidden;
+  overflow-y: auto;
   background: #4d4c4c;
   background: linear-gradient(rgba(92, 76, 92, 0.8), rgba(92, 89, 89, 0.8)), url("../images/banner.jpg");
   background: linear-gradient(rgba(85, 68, 85, 0.8), rgba(97, 84, 84, 0.8)), url("../images/banner.jpg");
@@ -297,6 +301,109 @@ img {
 
 /** end about section **/
 
-footer {
+
+/** contact  **/
+
+#contact-heading {
+  color: #fff;
+}
+
+.contact {
+  background: #205282;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact .titlepage p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.main_form .form_control {
+  padding: 0 25px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+  border: inherit;
+  border-radius: 40px;
+}
+
+.main_form .textarea {
+  margin-bottom: 40px;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 30px 25px 15px 25px;
+  border: inherit;
+  height: 89px;
+  border-radius: 40px;
+}
+
+.main_form .send_btn {
+  font-size: 16px;
+  transition: ease-in all 0.5s;
+  background-color: #363636;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 204px;
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  height: 61px;
+  line-height: 61px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.main_form .send_btn:hover {
   background-color: #fdc001;
+  transition: ease-in all 0.5s;
+  box-shadow: 0 0 16px 3px #635d5d38;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: #d0d0cf;
+  opacity: 1;
+}
+
+.datepicker-days {
+  padding: 20px;
+}
+
+
+/** end contact  **/
+
+ul.social_icon li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+ul.social_icon li a i {
+  font-size: 17px;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  background: #2d2d2d;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+ul.social_icon li a i:hover {
+  color: #fff;
+  transition: ease-in all 0.5s;
+  background: #fdc001;
+}
+
+/* footer */
+footer {
+  margin: 4%;
 }
