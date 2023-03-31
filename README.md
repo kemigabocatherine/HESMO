@@ -9,7 +9,7 @@
 
 ## Live demo
 
-🔗 [Follow the link](https://mv-trekker.netlify.app/)
+🔗 [Follow the link](https://hesmo-christian-relief.netlify.app/)
 
 ## Getting Started
 
