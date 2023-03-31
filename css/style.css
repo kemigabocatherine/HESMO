@@ -301,9 +301,7 @@ img {
 
 /** end about section **/
 
-
 /** contact  **/
-
 #contact-heading {
   color: #fff;
 }
@@ -377,9 +375,9 @@ img {
   padding: 20px;
 }
 
-
 /** end contact  **/
 
+/* social-media links */
 ul.social_icon li {
   display: inline-block;
   margin: 0 2px;
