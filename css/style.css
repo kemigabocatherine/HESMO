@@ -299,11 +299,19 @@ img {
   box-shadow: 0 0 16px 3px #635d5d38;
 }
 
-/** end about section **/
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #c4c3c3;
+  border-radius: 5px;
+  margin-top: -1%;
+}
 
+.logo {
+  width: 400px;
+}
 
 /** contact  **/
-
 #contact-heading {
   color: #fff;
 }
@@ -377,9 +385,9 @@ img {
   padding: 20px;
 }
 
-
 /** end contact  **/
 
+/* social-media links */
 ul.social_icon li {
   display: inline-block;
   margin: 0 2px;
