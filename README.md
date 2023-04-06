@@ -9,7 +9,7 @@
 
 ## Live demo
 
-🔗 [Follow the link](https://hesmo-christian-relief.netlify.app/)
+<a href="https://hesmo-christian-relief.netlify.app/" target="_blank">Follow the Link</a>
 
 ## Getting Started
 
