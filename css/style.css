@@ -190,6 +190,20 @@ img {
   box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
   margin-bottom: 55px;
   height: 500px;
+  overflow-y: auto;
+}
+
+.latest::-webkit-scrollbar {
+  width: 0.2em; /* set the width of the scrollbar */
+}
+
+.latest::-webkit-scrollbar-thumb {
+  background-color: #888; /* set the color of the scrollbar thumb */
+  border-radius: 0.2em; /* round the corners of the thumb */
+}
+
+.latest::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* set the color of the scrollbar thumb on hover */
 }
 
 .latest figure {
