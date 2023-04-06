@@ -56,7 +56,7 @@ header {
 
 .heading {
   line-height: 90px;
-  color: #fdc001;
+  color: #0a71c3;
   font-weight: 600;
   font-size: 250%;
   width: 100%;
@@ -189,6 +189,7 @@ img {
   padding: 10px;
   box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
   margin-bottom: 55px;
+  height: 500px;
 }
 
 .latest figure {
@@ -210,7 +211,7 @@ img {
 }
 
 .yellow {
-  background: #fdc001 !important;
+  background: #0a71c3 !important;
 }
 
 .nostrud {
@@ -239,12 +240,20 @@ img {
 
 /** about section **/
 .about {
-  background: #fdc001;
+  background: #0a71c3;
   padding-top: 90px;
   padding-bottom: 90px;
   margin-top: 80px;
   margin-left: 55px;
   margin-right: 55px;
+}
+
+#about-head {
+  color: #fff;
+}
+
+.card-text {
+  color: #fff;
 }
 
 .container_width {
@@ -317,7 +326,7 @@ img {
 }
 
 .contact {
-  background: #205282;
+  background: #0a71c3;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -370,7 +379,7 @@ img {
 }
 
 .main_form .send_btn:hover {
-  background-color: #fdc001;
+  background-color: #0a71c3;
   transition: ease-in all 0.5s;
   box-shadow: 0 0 16px 3px #635d5d38;
   color: #fff;
@@ -408,10 +417,15 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
   color: #fff;
   transition: ease-in all 0.5s;
-  background: #fdc001;
+  background: #0a71c3;
 }
 
 /* footer */
 footer {
   margin: 4%;
+}
+
+.involved-img {
+  width: 335.205px;
+  height: 223.682px;
 }
