@@ -48,12 +48,6 @@ header {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) {
-  header {
-    height: 80%;
-  }
-}
-
 .heading {
   line-height: 90px;
   color: #0a71c3;
@@ -442,4 +436,23 @@ footer {
 .involved-img {
   width: 335.205px;
   height: 223.682px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 80%;
+  }
+
+  .involved-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* .pray {
+    height: 223.672px;
+  } */
+
+  .latest {
+    overflow-y: unset;
+  }
 }
