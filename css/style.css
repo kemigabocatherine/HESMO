@@ -439,9 +439,9 @@ footer {
     height: auto;
   }
 
-  .latest {
+  /* .latest {
     overflow-y: unset;
-  }
+  } */
 
   .logo {
     margin-top: 0;
